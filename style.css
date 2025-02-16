@@ -18,7 +18,8 @@ main {
 .container {
     max-width: 400px;
     width: 80%;
-    background-color: #aaa;
+    background-color: #aaaaaa75;
+    backdrop-filter: blur(10px);
     height: fit-content;
     border-radius: 8px;
     box-shadow: 0 0 6px 3px #abc;
@@ -39,6 +40,7 @@ main {
     transition: .8s;
     box-shadow: none;
     border-radius: 4px;
+    padding-left: 6px;
 }
 
 #output-section.error {
